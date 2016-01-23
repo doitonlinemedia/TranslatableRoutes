@@ -1,0 +1,13 @@
+{
+    "name": "doitonlinemedia/translatableroutes",
+    "description": "Create translatable resource routes",
+    "authors": [
+        {
+            "name": "Tim van Uum",
+            "email": "tim@doitonlinemedia.nl"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {}
+}
