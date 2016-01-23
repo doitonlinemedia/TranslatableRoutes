@@ -23,11 +23,11 @@ class TranslatableRoutesServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('TranslatableRoute', function(){
+        $this->app->bind('TranslatableRouteFacade', function(){
             return new TranslatableRoute;
         });
 
-        $this->app->make('Doitonlinemedia\Translatableroutes\TranslatableRoute');
+        $this->app->make('Doitonlinemedia\Translatableroutes\TranslatableRouteFacade');
 
     }
 }
