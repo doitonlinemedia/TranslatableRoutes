@@ -26,6 +26,12 @@ From now on you can use it like this in your route file:
 
 `TranslatableRoute::resource('recipe', 'recepten', 'RecipeController');`
 
+Grouping these routes still works!
+
 # Result
 ![Alt text](example.png?raw=true "Routes Example")
+
+# Expansion
+
+For now this package supports the English (default and Dutch language.
 
