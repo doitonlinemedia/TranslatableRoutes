@@ -39,5 +39,5 @@ This way you will have different routes in different language, but always named 
 
 # Expansion
 
-For now this package supports the English (default and Dutch language.
+For now this package supports the English (default) and Dutch language.
 
