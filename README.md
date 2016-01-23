@@ -8,7 +8,7 @@ Run the following command:
 `composer require doitonlinemedia/translatableroutes "dev-master"`
 
 
-Next add the following provider to your app.php in the config file under 'providers':
+Next add the following provider to your app.php in the config folder under 'providers':
 
 `Doitonlinemedia\Translatableroutes\TranslatableRoutesServiceProvider::class`
 
@@ -33,6 +33,8 @@ You can also use it like:
 `TranslatableRoute::resource('recipe', trans('routes.recipes'), 'RecipeController');`
 
 This way you will have different routes in different language, but always named the same. So if you use route('recipe.index') you'll always return the to the right page no matter what language.
+
+Do not forget to set your locale to specific language you need e.g. `\App::setLocale('nl')`
 
 # Result
 ![Alt text](example.png?raw=true "Routes Example")
